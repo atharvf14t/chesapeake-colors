@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a1020" />
+  <title>Chesapeake Colors | Holiday lighting installation, Maryland</title>
+  <meta name="description" content="Custom-cut, professionally installed holiday lights across Annapolis, Anne Arundel, Baltimore and the Eastern Shore. We design it, hang it, fix it and take it down." />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preload" as="image" href="looks/warm.webp" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <svg width="26" height="32" viewBox="0 0 26 32" fill="none" aria-hidden="true">
+        <defs>
+          <radialGradient id="lg" cx="50%" cy="40%" r="60%">
+            <stop offset="0" stop-color="#fff" />
+            <stop offset=".45" stop-color="#ffc978" />
+            <stop offset="1" stop-color="#c9781f" />
+          </radialGradient>
+        </defs>
+        <circle cx="13" cy="19" r="12" fill="#ffc978" opacity=".18" />
+        <rect x="10" y="2" width="6" height="6" rx="1" fill="#2f6b55" />
+        <path d="M13 8 C6.5 11 6 18 8 23 C9.3 26.5 16.7 26.5 18 23 C20 18 19.5 11 13 8Z" fill="url(#lg)" />
+      </svg>
+      <div>
+        <div class="display brand-name">Chesapeake <em class="text-glow">Colors</em></div>
+        <div class="spec brand-kicker">Holiday lighting · Maryland</div>
+      </div>
+    </a>
+    <a class="spec quote-chip" href="#quote">Free design quote</a>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-sticky">
+        <canvas id="hero-canvas"></canvas>
+        <div class="shade-top"></div>
+        <div class="shade-bottom"></div>
+        <div class="shade-left"></div>
+        <div class="shade-mobile" id="shade-mobile"></div>
+        <div class="snow" id="snow"></div>
+
+        <div class="over-photo hero-title" id="hero-title">
+          <div class="spec text-glow">Holiday lighting · Annapolis &amp; the Bay</div>
+          <h1 class="display">Put the <em class="glow-text">ladder</em> down.</h1>
+          <p>Custom-cut, professionally installed holiday lights for Maryland homes. Scroll to watch one go from bare to brilliant.</p>
+          <div class="watch-desktop">
+            <button class="spec watch-btn" type="button" data-play> <span class="play-tri"></span>Watch the install</button>
+          </div>
+        </div>
+
+        <div class="watch-mobile" id="watch-mobile">
+          <button class="spec watch-btn" type="button" data-play><span class="play-tri"></span>Watch the install</button>
+          <span class="spec or-scroll">or scroll</span>
+        </div>
+
+        <div class="over-photo glow-line" id="glow-line">
+          <div class="spec">5:12 pm · Photocell on</div>
+          <h2 class="display">Let it <em class="glow-text">glow.</em></h2>
+        </div>
+
+        <div class="over-photo finale" id="finale">
+          <div class="spec text-glow">Designed, installed, maintained, stored</div>
+          <h2 class="display">Your house. <em class="glow-text">Your colors.</em></h2>
+          <div class="finale-actions">
+            <a class="spec btn-glow" href="#quote">Get my free design</a>
+            <a class="spec btn-ghost" href="#studio">Try the color studio ↓</a>
+          </div>
+        </div>
+
+        <div class="over-photo cap" data-cap="1">
+          <div class="spec cap-kicker"><span>Step 01</span><span class="rule"></span></div>
+          <h2 class="display">The crew arrives</h2>
+          <p>Insured, fall-protection-trained techs with standoff ladders. You never climb a thing.</p>
+        </div>
+        <div class="over-photo cap" data-cap="2">
+          <div class="spec cap-kicker"><span>Step 02</span><span class="rule"></span></div>
+          <h2 class="display">Custom-cut install</h2>
+          <p>Commercial C9s cut to your exact roofline and clipped on. No nails, no staples, no holes.</p>
+        </div>
+        <div class="over-photo cap" data-cap="3">
+          <div class="spec cap-kicker"><span>Step 03</span><span class="rule"></span></div>
+          <h2 class="display">Gutters &amp; shrubs</h2>
+          <p>One tech works the roofline while the ground crew nets every boxwood. Perfectly straight, 12&quot; spacing.</p>
+        </div>
+        <div class="over-photo cap" data-cap="4">
+          <div class="spec cap-kicker"><span>Step 04</span><span class="rule"></span></div>
+          <h2 class="display">Peaks &amp; trees</h2>
+          <p>Gable rakes and dormers, then trees wrapped trunk to tip. Every cord tucked out of sight.</p>
+        </div>
+        <div class="over-photo cap" data-cap="5">
+          <div class="spec cap-kicker"><span>Step 05</span><span class="rule"></span></div>
+          <h2 class="display">Wreaths &amp; final check</h2>
+          <p>Fresh fir, red velvet, every run tested. Most homes done in a single visit.</p>
+        </div>
+        <div class="over-photo cap" data-cap="7">
+          <div class="spec cap-kicker"><span>Up close</span><span class="rule"></span></div>
+          <h2 class="display">Built to last the season</h2>
+          <p>Faceted, commercial-grade LED on SPT-2 wire, held by clear all-in-one gutter clips.</p>
+        </div>
+        <div class="over-photo cap" data-cap="8">
+          <div class="spec cap-kicker"><span>Your call</span><span class="rule"></span></div>
+          <h2 class="display">Any color you want</h2>
+          <p>Warm white, retro multi, candy cane, purple on Sundays. Switch it from your phone.</p>
+        </div>
+
+        <div class="scrub">
+          <div class="wire">
+            <svg viewBox="0 0 100 10" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M0 2 Q 12.5 7 25 2 T 50 2 T 75 2 T 100 2" stroke="#2f6b55" stroke-width="0.35" fill="none" vector-effect="non-scaling-stroke"></path>
+            </svg>
+            <div id="bulbs"></div>
+          </div>
+          <div class="spec scrub-labels" id="scrub-labels"></div>
+        </div>
+        <div class="spec frame-count"><div><b id="frame-num">00</b> / 09</div></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stats-grid">
+        <div>
+          <div class="display stat-num">0</div>
+          <div class="spec stat-label">nails, staples or holes</div>
+          <p class="stat-copy">Clip-only mounting on gutters, shingles and ridge.</p>
+        </div>
+        <div>
+          <div class="display stat-num">48</div>
+          <div class="spec stat-label">hour service calls</div>
+          <p class="stat-copy">A bulb out or a storm hit? We're back, all season.</p>
+        </div>
+        <div>
+          <div class="display stat-num">1</div>
+          <div class="spec stat-label">visit, most homes</div>
+          <p class="stat-copy">Designed, hung and tested in about 3–6 hours.</p>
+        </div>
+        <div>
+          <div class="display stat-num">90%</div>
+          <div class="spec stat-label">less energy</div>
+          <p class="stat-copy">Commercial-grade LED vs. old incandescent strands.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="studio">
+      <div class="wrap">
+        <div class="spec kicker"><span>Color studio</span><i></i></div>
+        <div class="studio-head">
+          <h2 class="display">Same house.<br /><em class="glow-text">Six moods.</em></h2>
+          <p class="lede">Tap a look to see it on the house. With classic C9s, we hang the set you choose. With Year-Round lighting, you switch between all of them from your phone, any night of the year.</p>
+        </div>
+        <div class="stage">
+          <div class="stage-frame" id="stage"></div>
+          <div class="stage-fade"></div>
+          <div class="stage-caption">
+            <div>
+              <div class="display" id="look-name">Classic Warm</div>
+              <p id="look-note">2700K, the timeless candlelight look.</p>
+            </div>
+            <div class="spec stage-count" id="look-count">01 / 06</div>
+          </div>
+        </div>
+        <div class="looks" id="looks"></div>
+
+        <div class="year">
+          <div>
+            <div class="spec text-glow">Year-Round lighting</div>
+            <h3 class="display">Hang it <em class="glow-text">once.</em></h3>
+            <p class="lede">A permanent RGB + warm white track mounts in a trim-matched channel under your eaves. By day you can barely see it. By night it's warm white for Christmas, purple and gold for the Ravens, and red, white and blue for the Fourth.</p>
+            <div class="price-row"><span class="display">$28</span><span class="spec">/ ft installed</span></div>
+            <ul class="checks">
+              <li><span class="dot"></span>Aluminum channel color-matched to your trim, hidden under the drip edge by day</li>
+              <li><span class="dot"></span>RGB + warm white: 16 million colors, set from your phone</li>
+              <li><span class="dot"></span>Scenes for every holiday and game day</li>
+              <li><span class="dot"></span>Typical home: $3,500–$6,000</li>
+            </ul>
+          </div>
+          <div class="phone-wrap">
+            <div class="phone" aria-hidden="false">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <div class="phone-top">
+                  <span class="spec">Front roofline</span>
+                  <span class="switch"><i></i></span>
+                </div>
+                <img id="phone-photo" src="looks/warm.webp" alt="" />
+                <div class="spec scenes-label">Scenes</div>
+                <div id="scenes"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="detail">
+        <div class="macro">
+          <img src="img/macro-warm.webp" alt="Warm white C9 bulbs clipped to a gutter" />
+        </div>
+        <div>
+          <div class="spec kicker"><span>The details</span><i></i></div>
+          <h2 class="display">Straight lines. <em class="glow-text">Zero holes.</em></h2>
+          <ul class="specs">
+            <li><span class="spec">Commercial C9 LED</span><span>Faceted or smooth, sealed against rain and ice. Not big-box strands.</span></li>
+            <li><span class="spec">Custom-cut wire</span><span>SPT-2 line cut to each run, so there's no coiled extra and no dangling cords.</span></li>
+            <li><span class="spec">All-in-one clips</span><span>They grip the gutter lip, shingle tab or ridge and keep every bulb standing at 12&quot; spacing.</span></li>
+            <li><span class="spec">Smart power</span><span>GFCI outlets, circuits loaded under 80%, and a photocell timer so they're on at dusk.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt process" id="process">
+      <div class="wrap">
+        <div class="spec kicker"><span>How it works</span><i></i></div>
+        <h2 class="display">You pick the look. <em class="glow-text">We do the rest.</em></h2>
+        <ol class="steps">
+          <li>
+            <div class="step-top"><span class="bulb" style="--c:#ffc978"></span><span class="spec">01</span></div>
+            <h3 class="display">Free design consult</h3>
+            <p>A walk-around or a few photos is all we need. You get a quote and a mockup of your home lit up.</p>
+          </li>
+          <li>
+            <div class="step-top"><span class="bulb" style="--c:#ffc978"></span><span class="spec">02</span></div>
+            <h3 class="display">Custom-cut to your roofline</h3>
+            <p>We measure every run, then cut commercial C9 line to length. No coiled extra, no dangling cords. Pick warm white, pure white or color.</p>
+          </li>
+          <li>
+            <div class="step-top"><span class="bulb" style="--c:#ffc978"></span><span class="spec">03</span></div>
+            <h3 class="display">Install day</h3>
+            <p>An insured crew of 2–4 with standoff ladders and fall protection. We use clip-only mounting and GFCI power, set the timer, then do a final walk-through at dusk.</p>
+          </li>
+          <li>
+            <div class="step-top"><span class="bulb" style="--c:#ffc978"></span><span class="spec">04</span></div>
+            <h3 class="display">All-season care</h3>
+            <p>Wind, ice, a squirrel with opinions. Text us and we're out within 48 hours at no charge.</p>
+          </li>
+          <li>
+            <div class="step-top"><span class="bulb" style="--c:#ffc978"></span><span class="spec">05</span></div>
+            <h3 class="display">Takedown &amp; storage</h3>
+            <p>Starting January 1 we take it all down, label it by roofline and store it climate-controlled. Next year it goes back up faster.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="packages">
+      <div class="wrap">
+        <div class="spec kicker"><span>Packages</span><i></i></div>
+        <div class="packages-head">
+          <h2 class="display">One price. <em class="glow-text">All season.</em></h2>
+          <p class="lede">Every package includes design, custom-cut commercial lights, installation, service calls, January takedown and climate-controlled storage.</p>
+        </div>
+        <div class="pkgs">
+          <article class="pkg">
+            <h3 class="display">The Harbor</h3>
+            <div class="pkg-price"><span class="spec">from</span><span class="display">$895</span></div>
+            <ul>
+              <li><span class="dot"></span>Up to 100 ft of front roofline</li>
+              <li><span class="dot"></span>C9 LED in your choice of white or color</li>
+              <li><span class="dot"></span>1 lit fir wreath</li>
+              <li><span class="dot"></span>Photocell timer</li>
+              <li><span class="dot"></span>Service calls, takedown &amp; storage</li>
+            </ul>
+            <a class="spec btn-line" href="#quote">Get my design</a>
+          </article>
+          <article class="pkg featured">
+            <span class="spec badge">Most booked</span>
+            <h3 class="display">The Annapolis</h3>
+            <div class="pkg-price"><span class="spec">from</span><span class="display">$1,850</span></div>
+            <ul>
+              <li><span class="dot"></span>Up to 200 ft of roofline &amp; peaks</li>
+              <li><span class="dot"></span>2 lit wreaths + 20 ft of garland</li>
+              <li><span class="dot"></span>Shrub nets on the front beds</li>
+              <li><span class="dot"></span>1 tree wrapped trunk-to-canopy</li>
+              <li><span class="dot"></span>Priority install dates</li>
+            </ul>
+            <a class="spec btn-glow" href="#quote">Get my design</a>
+          </article>
+          <article class="pkg">
+            <h3 class="display">The Bay Estate</h3>
+            <div class="pkg-price"><span class="spec">from</span><span class="display">$3,900</span></div>
+            <ul>
+              <li><span class="dot"></span>Full-home roofline, every elevation</li>
+              <li><span class="dot"></span>2+ trees wrapped, pathway lights</li>
+              <li><span class="dot"></span>Garland &amp; wreaths throughout</li>
+              <li><span class="dot"></span>Whole-yard lighting design</li>
+              <li><span class="dot"></span>First-call service all season</li>
+            </ul>
+            <a class="spec btn-line" href="#quote">Get my design</a>
+          </article>
+        </div>
+        <div class="addons">
+          <div class="spec">Add-ons</div>
+          <div class="addon-grid">
+            <div><div>Extra roofline</div><div class="spec">$6.50 / ft</div></div>
+            <div><div>Tree wrap</div><div class="spec">$150–$600 / tree</div></div>
+            <div><div>Lit fir wreath</div><div class="spec">$175</div></div>
+            <div><div>Fresh garland</div><div class="spec">$18 / ft</div></div>
+          </div>
+        </div>
+        <p class="fine">Season minimum $750. Book by October 15 and save 10%. Returning clients get first pick of install dates.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="faq">
+      <div class="faq-grid">
+        <div>
+          <div class="spec kicker"><span>Questions</span><i></i></div>
+          <h2 class="display">Good <em class="glow-text">to know.</em></h2>
+          <p class="lede">From Hampden's 34th Street to the Eastport boat parade, Maryland does the holidays bright. Your house should too.</p>
+        </div>
+        <div class="faq" id="faq-list">
+          <div class="faq-item">
+            <button type="button">When should I book? <span class="bulb" style="--c:#ffc978"></span></button>
+            <div class="faq-body"><p>Early. Install dates run late October through early December and fill by early November. Most of our calendar is booked before Halloween. Returning clients get first pick.</p></div>
+          </div>
+          <div class="faq-item">
+            <button type="button">Do I own the lights? <span class="bulb off" style="--c:#ffc978"></span></button>
+            <div class="faq-body"><p>Most clients lease. We supply commercial-grade LED custom-cut to your home, then take it down and store it every January. You can also buy your set outright. Either way we do the ladder work.</p></div>
+          </div>
+          <div class="faq-item">
+            <button type="button">Will you damage my gutters or roof? <span class="bulb off" style="--c:#ffc978"></span></button>
+            <div class="faq-body"><p>No nails, no staples, no holes. We use all-in-one clips on gutters, shingle tabs and ridge clips, and our ladders have standoff arms so they never rest on your gutters.</p></div>
+          </div>
+          <div class="faq-item">
+            <button type="button">Do I need to be home? <span class="bulb off" style="--c:#ffc978"></span></button>
+            <div class="faq-body"><p>Not for install or takedown. We just need access to an exterior GFCI outlet. We test everything at dusk and send you a photo.</p></div>
+          </div>
+          <div class="faq-item">
+            <button type="button">What if a section goes out? <span class="bulb off" style="--c:#ffc978"></span></button>
+            <div class="faq-body"><p>Text us. Service calls are included and we're typically back within 48 hours, all season long.</p></div>
+          </div>
+          <div class="faq-item">
+            <button type="button">What about permanent lights? <span class="bulb off" style="--c:#ffc978"></span></button>
+            <div class="faq-body"><p>Our Year-Round track mounts in a trim-matched channel under the eave. You can barely see it by day. At night you pick any color or scene from your phone: warm white for Christmas, purple for the Ravens, red, white and blue for the Fourth.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote" id="quote">
+      <div class="quote-glow"></div>
+      <div class="quote-grid">
+        <div>
+          <div class="spec kicker"><span>Free design quote</span><i></i></div>
+          <h2 class="display">Let's light <em class="glow-text">yours.</em></h2>
+          <p class="lede">Send a few details and we'll come back within one business day with a quote and a mockup of your home lit up. Install dates fill by early November.</p>
+          <div class="contact-links">
+            <a href="tel:4105550142">(410) 555-0142</a>
+            <a class="dim" href="mailto:hello@example.com">hello@example.com</a>
+          </div>
+          <div class="spec serving">Serving</div>
+          <div class="towns">
+            <span>Annapolis</span><span>Severna Park</span><span>Arnold</span><span>Crofton</span>
+            <span>Ellicott City</span><span>Towson</span><span>Baltimore</span><span>Kent Island</span>
+            <span>Easton</span><span>St. Michaels</span>
+          </div>
+        </div>
+        <form class="quote-form" id="quote-form">
+          <div class="fields">
+            <input required placeholder="Name" autocomplete="name" />
+            <input required placeholder="Phone" type="tel" autocomplete="tel" />
+          </div>
+          <input required placeholder="Email" type="email" autocomplete="email" />
+          <input required placeholder="Home address or town" autocomplete="street-address" />
+          <select>
+            <option value="" disabled selected>What are you interested in?</option>
+            <option>Classic C9 roofline (seasonal)</option>
+            <option>Full-home design with trees &amp; wreaths</option>
+            <option>Year-Round permanent lighting</option>
+            <option>Not sure yet</option>
+          </select>
+          <textarea placeholder="Anything else? Favorite look, trees to wrap, HOA rules..."></textarea>
+          <button class="spec btn-glow" type="submit">Request my free design</button>
+          <p class="disclaimer">No spam. No pressure. Just a quote.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="display">Chesapeake <em class="text-glow">Colors</em></div>
+    <div class="spec">Holiday &amp; permanent lighting · Maryland · Demo concept by Lynam Up Media</div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
